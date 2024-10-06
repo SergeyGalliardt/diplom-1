@@ -7,13 +7,13 @@ import praktikum.Bun;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class bunTests {
+public class BunTests {
 
     private Bun bun;
     private final String name;
     private final float price;
 
-    public bunTests(String name, float price) {
+    public BunTests(String name, float price) {
         this.name = name;
         this.price = price;
     }

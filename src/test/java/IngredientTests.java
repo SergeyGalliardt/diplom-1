@@ -4,7 +4,7 @@ import praktikum.Ingredient;
 
 import static praktikum.IngredientType.SAUCE;
 
-public class ingredientTests {
+public class IngredientTests {
       Ingredient ingredient = new Ingredient(SAUCE, "Blink", 182.0f);
 
       @Test

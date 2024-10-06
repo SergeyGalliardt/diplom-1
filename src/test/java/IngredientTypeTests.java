@@ -2,7 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import praktikum.IngredientType;
 
-public class ingredientTypeTests {
+public class IngredientTypeTests {
 
     @Test
     public void enumSauceTest() {
