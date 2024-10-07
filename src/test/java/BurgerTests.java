@@ -16,7 +16,7 @@ import static org.junit.Assert.assertTrue;
 import static praktikum.IngredientType.SAUCE;
 
 @RunWith(MockitoJUnitRunner.class)
-public class burgerTests {
+public class BurgerTests {
     private Burger burger;
 
     @Mock
@@ -62,7 +62,8 @@ public class burgerTests {
     }
 
     @Test
-    public void burgerMoveIngredientsCheck() {
+    //Это тест на метод (move)
+    public void burgerMoveIngredientsTest() {
         burger.addIngredient(sauce);
         burger.addIngredient(topping);
 
